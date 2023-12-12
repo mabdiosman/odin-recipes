@@ -1,0 +1,40 @@
+body {
+  background-color: hsl(15, 100%, 94%);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  margin: 3rem auto;
+  padding: 1rem;
+}
+
+.image-container {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+img {
+  width: 100%;
+  border: 1rem solid orangered;
+  border-radius: 4px;
+}
+
+ul {
+  text-align: left;
+}
+
+ul li {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+
+a {
+  font: inherit;
+  color: inherit;
+}
+
+a:hover {
+  color: orangered;
+}
