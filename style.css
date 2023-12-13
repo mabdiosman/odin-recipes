@@ -1,6 +1,12 @@
+html {
+  font-size: 16px;
+}
+
 body {
   background-color: hsl(15, 100%, 94%);
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1rem;
+  line-height: 1.5;
   text-align: center;
 }
 
@@ -21,12 +27,15 @@ img {
   border-radius: 4px;
 }
 
-ul {
+ul,
+ol {
   text-align: left;
+  margin: 1rem 0;
 }
 
-ul li {
-  font-size: 1.4rem;
+ul li,
+ol li {
+  font-size: 1.2rem;
   margin: 1rem 0;
 }
 
